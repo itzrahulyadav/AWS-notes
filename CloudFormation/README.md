@@ -34,3 +34,9 @@
  
  Stack is created in entirety i'e either fully or not at all.
  
+
+### Intrinsic functions
+
+ Intrinsic functions are pre-defined functions that allow you to dynamically configure and customize AWS resources during stack creation or update
+ 
+ 
