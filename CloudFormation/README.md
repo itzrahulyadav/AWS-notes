@@ -90,3 +90,29 @@ Resources:
       ...
 ```
 -  The FindInMap function will retrieve the value based on aws region.
+
+### Output
+
+-  Outputs enable you to get access to information about resources within a stack. For example, you can output an EC2 instance's Public DNS name once it is created.
+
+-  This values can also be exported to other stacks for reference.
+
+_example_:
+
+```
+ Resources:
+  MyBucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: "my-bucket"
+
+Outputs:
+  MyBucketName:
+    Value: !Ref MyBucket
+    Export:
+      Name: "MyBucketName"
+
+```
+
+- The Output sections export field is used to export the name of the bucket and this can be accessed using `!ImportValue MyBucketName
+`
