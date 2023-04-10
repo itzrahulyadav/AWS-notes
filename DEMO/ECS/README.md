@@ -23,5 +23,5 @@
 - select your taskdefinition
 - provide the service name
 - select the number of desired task
-- select the security group and make sure the inbound ports are open on your sg as defined in your docker image
-- 
+- select the security group and make sure the inbound ports are open on your sg as defined in your docker image.
+- In the clusters click on the cluster name and click on the tasks tab which is present next to services.
