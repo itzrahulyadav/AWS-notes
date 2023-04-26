@@ -1,3 +1,4 @@
+```
 {
     "pipeline": {
      "roleArn": "arn:aws:iam::<FMI_1>:role/RoleForCodepipeline",
@@ -62,3 +63,4 @@
      "version": 1
     }
    }
+```
