@@ -24,6 +24,9 @@
 - we have to install docker and ecs agent that ecs control plane can talk to and give instructions.
 - we have to install firewalls and other routing pathces and upgrades to keep our servers up to date.
 - we get full control our infrastructure.
+![Screenshot_20230528-164642_Video Player](https://github.com/itzrahulyadav/AWS-notes/assets/65400893/5773732d-2174-4dac-8fb5-c49c912b4311)
+
+
 
 
 ### ECS fargate
@@ -33,6 +36,7 @@
 - ECS will talk to fargate and it will create our servers on demand like EC2
 - then ECS can launch our app to ec2
 - Fargate manages the underlying resources
+![VideoCapture_20230528-165040](https://github.com/itzrahulyadav/AWS-notes/assets/65400893/9abd4c42-506a-4f4c-b050-a2f54673843a)
 
 
 ### ECS task definition
@@ -42,11 +46,15 @@
 - what image to use
 - what ports to use/vlumes
 - It contains a configuration just like a docker-compose file.
+- 
+![VideoCapture_20230528-165320](https://github.com/itzrahulyadav/AWS-notes/assets/65400893/f70e1066-85c3-4687-86f2-50a77a414ae4)
 
 ### ECS Task
 
 - It's just an instance of a task definition.
 - A task is just a running container with settings defined in the task DF
+![VideoCapture_20230528-165635](https://github.com/itzrahulyadav/AWS-notes/assets/65400893/fbeeb096-c485-4e0a-a87d-e7e96229f56d)
+
 
 ### ECS services
 
@@ -54,11 +62,14 @@
 - Suppose we have an application on python and we want 2 seperate instances(tasks)/containers of our application running at all times.Serviecs will check and create two instances and deploy it in some servers in our cluster.
 - It also restart the crashed container.
 - ECS instance fails,the service will restart the task on working ec2 instance.
+![VideoCapture_20230528-170205](https://github.com/itzrahulyadav/AWS-notes/assets/65400893/fceffa95-cbae-49fd-bc9a-a8bc5f011b39)
+
 
 #### Load Balancers
 
 - We can assign load balancer to route traffice to our services.
-- 
+- ![VideoCapture_20230528-170422](https://github.com/itzrahulyadav/AWS-notes/assets/65400893/7fb55260-193c-470f-902d-e7b3f8a474e0)
+
 
 
 
