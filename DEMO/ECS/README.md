@@ -14,12 +14,17 @@
 - ECS can only create and delete containers
 - Cluster is a bunch of resources that our containers are going to run on like EC2.
 
+
+
+
+
 #### EC2 launch type 
 ##### - In EC2 cluster we have to manage the underlying infrastructure.
 - we have to create individual and manage this ec2
 - we have to install docker and ecs agent that ecs control plane can talk to and give instructions.
 - we have to install firewalls and other routing pathces and upgrades to keep our servers up to date.
 - we get full control our infrastructure.
+
 
 ### ECS fargate
 ##### - In ecs fargate aws manages the underlying infrastructure.
