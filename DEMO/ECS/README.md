@@ -100,3 +100,31 @@
 - select the number of desired task
 - select the security group and make sure the inbound ports are open on your sg as defined in your docker image.
 - In the clusters click on the cluster name and click on the tasks tab which is present next to services.
+
+
+![Screenshot (77)](https://github.com/itzrahulyadav/AWS-notes/assets/65400893/162eea4f-e47d-41f7-b3c8-26cdc4faa247)
+
+
+![Screenshot (78)](https://github.com/itzrahulyadav/AWS-notes/assets/65400893/91bbe1b6-7772-4ff3-a16b-2fcd7903f3a3)
+
+
+![Screenshot (79)](https://github.com/itzrahulyadav/AWS-notes/assets/65400893/d9278e9d-0b91-41bc-9499-63315923ec50)
+
+
+![Screenshot (80)](https://github.com/itzrahulyadav/AWS-notes/assets/65400893/c84f62f5-11f5-4bb7-bb2c-e850228b56ed)
+
+
+![Screenshot (81)](https://github.com/itzrahulyadav/AWS-notes/assets/65400893/b0f3a29f-8e85-41c9-92aa-bdc931710cc7)
+
+
+![Screenshot (82)](https://github.com/itzrahulyadav/AWS-notes/assets/65400893/7a47b070-d272-497c-a095-22cd69662f5f)
+
+
+![Screenshot (83)](https://github.com/itzrahulyadav/AWS-notes/assets/65400893/d9fbfc83-6ef0-4ae5-b796-22d8e4ad0ec0)
+
+
+
+
+
+
+
